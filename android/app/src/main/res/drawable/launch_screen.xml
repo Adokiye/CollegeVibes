@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/full_colour" />
+            <padding
+                android:left="0dip"
+                android:top="0dip"
+                android:right="0dip"
+                android:bottom="0dip" />
+        </shape>
+    </item>
+    <item
+        android:bottom="200dp">
+        <bitmap
+            android:gravity="left|top"
+            android:src="@mipmap/left"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/center_icon" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom|right"
+            android:src="@mipmap/right" />
+    </item>
+</layer-list>
